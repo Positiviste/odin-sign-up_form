@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#left_panel {
+    flex: auto;
+    height: 100svh;
+    width: calc(100svh*3024/4032);
+    display: flex;
+    flex-direction: column;
+    background-image: url(maarten-van-den-heuvel-Siuwr3uCir0-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+#left_panel_text {
+    margin-top: calc(calc(100svh/2) - 100px);
+    margin-bottom: calc(calc(100svh/2) - 100px);
+    flex: auto;
+    display: flex;
+    background-color: rgb(255, 255, 255, 50%);
+    align-items: center;
+    font-size: 3rem;
+}
+
+#logo, #title {
+    flex: 0;
+}
+
+#left_panel_trademark {
+    flex: auto;
+}
+
+
+
+
+#right_panel_text {
+    flex: auto;
+}
+
+
